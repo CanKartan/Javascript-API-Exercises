@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.card-wrapper {
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+}
+
+#QRValue {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Button-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#CreateButton {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#DowlandButton {
+    width: 120px;
+    margin: 5px;
+}
+
+#ClearButton {
+    width: 100px;
+    margin: 5px;
+}
+
+.QR-wrapper {
+    display: flex;
+    justify-content: center;
+
+}

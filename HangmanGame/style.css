@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2E8C6 !important;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    padding: 20px;
+    height: 450px;
+    width: 450px;
+}
+.baslik{
+    margin-top: 20px;
+    color: #800000 ;
+}
+.grafik{
+    fill: transparent;
+    stroke: #800000;
+    stroke-width: 4px;
+}
+.item{
+ display: none; 
+}
+
+#hatali-kelimeler{
+position: absolute;
+top: 30px;
+right: 30px;
+}
+#kelimeler{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.letter{
+    border-bottom: 3px solid #982B1C;
+    font-size: 30px;
+    margin:0 3px;
+    height: 40px;
+    width: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-display{
+    display: none !important;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.winner{
+    background-color: green;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+#yenidenoyna{
+    z-index: 2 !important;
+}
